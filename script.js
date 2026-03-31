@@ -23,13 +23,14 @@
 // altrimenti:
 //   stampo "la parola NON è palindroma"
 
+// chiedo all'utente di inserire una parola tramite prompt
 const parola = prompt('inserisci una parola');
 
-
+// invoco la funzione isPalindroma passando la parola inserita
 const risultato = isPalindroma(parola);
 if (risultato) {
-    console.log('La parola è palindroma');
+    console.log('La parola è palindroma'); // se è true la parola è palindroma
 }
 else {
-    console.log('La parola non è palindroma')
+    console.log('La parola non è palindroma') // se è false la parola non è palindroma
 }
