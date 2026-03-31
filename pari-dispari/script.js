@@ -7,16 +7,30 @@
 // confronto il risultato con la scelta dell'utente
 
 // se la scelta dell'utente è corretta:
-    // stampo "hai vinto"
+// stampo "hai vinto"
 // altrimenti:
-    // stampo "ha vinto il computer"
+// stampo "ha vinto il computer"
 
-    const scelta = prompt("scegli pari o dispari").toLowerCase();
-    const numeroUtente = parseInt(prompt("scegli un numero da 1 a 5"));
+const scelta = prompt("scegli pari o dispari").toLowerCase();
+const numeroUtente = parseInt(prompt("scegli un numero da 1 a 5"));
 
+if (scelta !== 'pari' && scelta !== 'dispari') {
+    console.log('Scelta non valida');
+} else if (numeroUtente < 1 || numeroUtente > 5 || isNaN(numeroUtente)) {
+    console.log('Numero non valido')
+}
+
+else {
     console.log(scelta);
     console.log(numeroUtente);
-    
-    
+
+
 
     const numeroComputer = generaNumeroRandom();
+    console.log(numeroComputer);
+    const somma = numeroUtente + numeroComputer;
+    console.log(somma);
+
+}
+
+
