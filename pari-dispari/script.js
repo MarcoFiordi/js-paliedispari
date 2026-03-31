@@ -13,3 +13,10 @@
 
     const scelta = prompt("scegli pari o dispari").toLowerCase();
     const numeroUtente = parseInt(prompt("scegli un numero da 1 a 5"));
+
+    console.log(scelta);
+    console.log(numeroUtente);
+    
+    
+
+    const numeroComputer = generaNumeroRandom();
