@@ -25,17 +25,11 @@
 
 const parola = prompt('inserisci una parola');
 
-function isPalindroma(parola) {
-    parola = parola.toLowerCase();
-    parola = parola.replace(/[^a-z]/g, '')
-    let parolaInvertita = ''
 
-    for (let i = parola.length - 1; i >= 0; i--) {
-        parolaInvertita = parolaInvertita + parola[i];
-    }
-    if (parola === parolaInvertita) {
-        return true;
-    } else {
-        return false;
-    }
+const risultato = isPalindroma(parola);
+if (risultato) {
+    console.log('La parola è palindroma');
+}
+else {
+    console.log('La parola non è palindroma')
 }
