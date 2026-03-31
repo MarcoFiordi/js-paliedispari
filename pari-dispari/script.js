@@ -31,6 +31,21 @@ else {
     const somma = numeroUtente + numeroComputer;
     console.log(somma);
 
+    if (isPari(somma)) {
+    if (scelta === "pari") {
+        console.log("Hai vinto");
+    } else {
+        console.log("Ha vinto il computer");
+    }
+} else {
+    if (scelta === "dispari") {
+        console.log("Hai vinto");
+    } else {
+        console.log("Ha vinto il computer");
+    }
+}
+
+
 }
 
 
