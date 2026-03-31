@@ -1,1 +1,14 @@
 'use strict'
+// chiedo all'utente di scegliere pari o dispari
+// chiedo all'utente di inserire un numero da 1 a 5
+// genero un numero casuale per il computer tra 1 e 5 usando una funzione
+// sommo il numero dell'utente a quello del computer
+// creo una funzione per capire se la somma è pari o dispari
+// confronto il risultato con la scelta dell'utente
+
+// se la scelta dell'utente è corretta:
+    // stampo "hai vinto"
+// altrimenti:
+    // stampo "ha vinto il computer"
+
+    
